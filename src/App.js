@@ -1,11 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Hike from "./assets/images/hike.jpg";
+// import "./App.css";
+
 
 function App() {
+const userName = "Fawaz"
+
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h3>{userName}</h3>
+
+        <img src={Hike} className="App-logo" alt="logo" />
+
+        <h1> Hello React</h1>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
