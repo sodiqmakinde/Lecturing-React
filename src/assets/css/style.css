@@ -1,8 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
+header {
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-img{
-    width: 100%;
+:root {
+  --globalColor: gray;
+  --oshodi: black;
+  --yellow: #e19f17ff;
+  --green: #2ABB98FF;
+  --white: #FFFFFF;
+  --headingSize: 50px;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.imgStart {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--globalColor);
+}
+.imgStart img {
+  width: 500px;
+  height: 500px;
+}
+.imgStart p {
+  font-size: 14px;
+}
+.imgStart p:hover {
+  font-size: var(--headingSize);
+}/*# sourceMappingURL=style.css.map */

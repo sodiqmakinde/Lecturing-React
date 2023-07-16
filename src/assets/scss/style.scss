@@ -1,21 +1,17 @@
 @import "./header";
 @import "./variable";
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
 img {
   width: 100%;
 }
 
-h3 {
-  font-size: $size;
-  background-color: var(--oshodi);
-  color: $primary;
-}
-
-p {
-  font-size: var(--headingSize);
-  background-color: $primary;
-  color: var(--oshodi);
-}
 
 @mixin flexStart($justification, $bgcolor) {
   display: flex;
