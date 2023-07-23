@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Navbar = () => {
@@ -10,7 +11,9 @@ const Navbar = () => {
           alt="Glovo Logo"
         />
         <div>
-          <button>Get Started</button>
+          <Link to="/contact">
+            <button>Contact</button>
+          </Link>
         </div>
       </div>
     </Container>
@@ -31,7 +34,7 @@ let Container = styled.section`
     img {
       width: 160px;
     }
-    button{
+    button {
       background: var(--green);
       border: 0;
       padding: 15px 25px;
