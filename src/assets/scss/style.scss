@@ -1,17 +1,29 @@
 @import "./header";
 @import "./variable";
 
-*{
+* {
   margin: 0;
   padding: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
-
-
-
+body{
+  background-color: var(--gray);
+}
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 img {
   width: 100%;
 }
-
+p,
+li,
+h1,
+h5,
+h2 {
+  color: var(--black);
+}
 
 @mixin flexStart($justification, $bgcolor) {
   display: flex;
